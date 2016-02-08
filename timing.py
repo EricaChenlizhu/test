@@ -1,10 +1,13 @@
 ﻿import time
 import os
+from PersonalInformation import local
 
 print('Chen lizhu')
-local='C:\\Users\\Administrator\\Desktop\\mail'
 while True:
-    file=open('%s\\log.txt'%local,'a')
+    try:
+        file=open('%s\\Log.txt'%local,'a')
+    except:
+        file=open('%s\\Log.txt'%local,'r')
     file.write(time.strftime('%y-%m-%d,%H:%M:%S',time.localtime())+'\n')
     file.close()
 
@@ -13,7 +16,7 @@ while True:
     os.system('%s\\NewTianchi.py'%local)
     os.system('%s\\NewYuqing.py'%local)
 
-    file=open('%s\\log.txt'%local,'a')
+    file=open('%s\\Log.txt'%local,'a')
     file.write('sleeping...\n\n')
     file.close()
 

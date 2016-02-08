@@ -1,6 +1,7 @@
-﻿import time
-from myfunction import *
-from DatabaseFuction import *
+﻿from FunctionGeneral import *
+from FuctionDatabase import *
+from FunctionSendMail import *
+
 
 #网址
 home='http://www.careerdream.org'#主页
@@ -70,10 +71,11 @@ while True:
             body=create_body(url_sub,code)
     #发送邮件
             send_time=time.strftime('%y-%m-%d,%H:%M:%S',time.localtime())
-            send_gmail(head,body)
+            send_mail(head,body)
     #写入数据库
             updata_database(database_name,url_sub,head,body,send_time)
 
-file=open('log.txt','a')
+
+file=open('Log.txt','a')
 file.write(home+'\n')
 file.close()
