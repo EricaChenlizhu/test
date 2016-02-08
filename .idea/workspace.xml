@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4563a503-6049-458e-a4ba-bd2c3814060c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DatabaseFuction.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log(20160208).txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log(20160208error).txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myfunction.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sendLog.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yuqing.db" afterPath="$PROJECT_DIR$/Yuqing.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewCareerDream.py" afterPath="$PROJECT_DIR$/NewCareerDream.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewJournaEconomicPerspectives.py" afterPath="$PROJECT_DIR$/NewJournaEconomicPerspectives.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewTianchi.py" afterPath="$PROJECT_DIR$/NewTianchi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewYuqing.py" afterPath="$PROJECT_DIR$/NewYuqing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log.txt" afterPath="$PROJECT_DIR$/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/timing.py" afterPath="$PROJECT_DIR$/timing.py" />
-    </list>
+    <list default="true" id="4563a503-6049-458e-a4ba-bd2c3814060c" name="Default" comment="" />
     <ignored path="mail.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
