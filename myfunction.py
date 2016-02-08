@@ -1,7 +1,8 @@
-﻿#定义邮件发送过程
+﻿from PersonalInformation import *
+
+#定义邮件发送过程
 #gmail
 def send_gmail(head,body,code='utf-8',To='erica_chenlizhu@163.com'):
-    from PersonalInformation import *
     import smtplib
     from email.mime.text import MIMEText
     import time
@@ -32,7 +33,6 @@ def send_gmail(head,body,code='utf-8',To='erica_chenlizhu@163.com'):
 
 #163.com
 def send_163(head,body,To='erica_chenlizhu@163.com'):
-    from PersonalInformation import *
     import smtplib
     import time
     from email.mime.text import MIMEText  # 引入smtplib和MIMEText
@@ -63,5 +63,4 @@ def open_soup(url,code='utf8'):
     page=conn.read().decode(code)
     soup=BS(page,'html.parser')
     return soup
-
 
